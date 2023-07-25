@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(49, 49, 49);
+  margin: 0;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 37px);
+  background-image: url('https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#list {
+  height: 100%;
+  flex: 2;
+}
+
+#form {
+  background-color: rgb(194, 192, 192);
+  height: 100%;
+  flex: 1;
+}
+
+#btnAdd{
+    background-color: rgb(49, 47, 47);
+}
+
+#btnDetails{
+    background-color: rgb(49, 47, 47);
+}
+
+#iImportant{
+    color: rgb(56, 56, 56);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#iImportant:hover{
+    color: black;
+}
+
+i.important-icon{
+    color: tomato !important;
+}
+
+.task{
+    margin:10px 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    display: flex;
+    box-shadow: -1px 1px 3px 6px #757272;
+    border-radius: 6px;
+}
+
+.task .info{
+    flex: 3;
+}
+
+.task .status{
+    flex: 1;
+}
+
+.task.date-budget{
+    flex: 1;
+}
+.task .date-budget label{
+    display: block;
+}
